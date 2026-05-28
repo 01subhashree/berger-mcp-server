@@ -1,0 +1,105 @@
+{
+  "brand": "Berger Paints",
+  "industry": "Paints & Coatings",
+  "country": "India",
+  "competitors": [
+    {
+      "name": "Asian Paints",
+      "market_position": 1,
+      "market_share": "53%",
+      "strengths": [
+        "Largest dealer network",
+        "Premium finish quality",
+        "Strong brand trust",
+        "Wide color range"
+      ],
+      "similar_products": [
+        {
+          "berger_product": "Berger Silk Glamour",
+          "competitor_product": "Asian Paints Royale Luxury Emulsion",
+          "category": "Interior Premium Emulsion"
+        },
+        {
+          "berger_product": "Berger WeatherCoat Long Life",
+          "competitor_product": "Asian Paints Apex Ultima Protek",
+          "category": "Exterior Paint"
+        }
+      ]
+    },
+    {
+      "name": "Kansai Nerolac",
+      "market_position": 3,
+      "market_share": "12%",
+      "strengths": [
+        "Durable exterior paints",
+        "Anti-bacterial paints",
+        "Japanese technology"
+      ],
+      "similar_products": [
+        {
+          "berger_product": "Berger Silk",
+          "competitor_product": "Nerolac Impressions",
+          "category": "Interior Emulsion"
+        },
+        {
+          "berger_product": "Berger WeatherCoat",
+          "competitor_product": "Nerolac Excel Total",
+          "category": "Exterior Paint"
+        }
+      ]
+    },
+    {
+      "name": "Birla Opus",
+      "market_position": 4,
+      "market_share": "Emerging",
+      "strengths": [
+        "Aggressive pricing",
+        "Premium finish at lower cost",
+        "Fast market expansion"
+      ],
+      "similar_products": [
+        {
+          "berger_product": "Berger Silk Glamour",
+          "competitor_product": "Birla Opus One",
+          "category": "Premium Interior Paint"
+        },
+        {
+          "berger_product": "Berger WeatherCoat",
+          "competitor_product": "Birla Opus Weather Max",
+          "category": "Exterior Paint"
+        }
+      ]
+    },
+    {
+      "name": "Dulux",
+      "parent_company": "Akzo Nobel",
+      "strengths": [
+        "International brand",
+        "Premium finishes",
+        "Designer color palettes"
+      ],
+      "similar_products": [
+        {
+          "berger_product": "Berger Silk Breathe Easy",
+          "competitor_product": "Dulux Velvet Touch",
+          "category": "Luxury Interior Paint"
+        }
+      ]
+    },
+    {
+      "name": "Indigo Paints",
+      "strengths": [
+        "Innovative products",
+        "Differentiated marketing",
+        "Fast-growing brand"
+      ],
+      "similar_products": [
+        {
+          "berger_product": "Berger Easy Clean",
+          "competitor_product": "Indigo Dirtproof & Waterproof Exterior Laminate",
+          "category": "Weather Protection Paint"
+        }
+      ]
+    }
+  ]
+}
