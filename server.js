@@ -3,6 +3,7 @@ import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js"
 import { z } from "zod";
 
 import bergerData from "./data.json" with { type: "json" };
+import comparisonData from "./comparison.json" with { type: "json" };
 
 // Create MCP Server
 const server = new McpServer({
@@ -74,6 +75,166 @@ server.registerTool(
         {
           type: "text",
           text: result,
+        },
+      ],
+    };
+  },
+);
+
+server.registerTool(
+  "get-product-types",
+  {
+    title: "Get Product Types",
+    description: "Returns all waterproofing product types",
+    inputSchema: {},
+  },
+  async () => {
+    const uniqueTypes = [
+      ...new Set(comparisonData.products.map((item) => item.type)),
+    ];
+
+    return {
+      content: [
+        {
+          type: "text",
+          text: uniqueTypes.join("\n"),
+        },
+      ],
+    };
+  },
+);
+
+server.registerTool(
+  "search-products",
+  {
+    title: "Search Products",
+    description: "Search Berger waterproofing products",
+    inputSchema: {
+      keyword: z.string(),
+    },
+  },
+  async ({ keyword }) => {
+    const results = comparisonData.products.filter((item) =>
+      item.berger_product.toLowerCase().includes(keyword.toLowerCase()),
+    );
+
+    if (results.length === 0) {
+      return {
+        content: [
+          {
+            type: "text",
+            text: "No matching products found",
+          },
+        ],
+      };
+    }
+
+    const formatted = results
+      .map(
+        (item) => `
+${item.berger_product}
+Type: ${item.type}
+`,
+      )
+      .join("\n");
+
+    return {
+      content: [
+        {
+          type: "text",
+          text: formatted,
+        },
+      ],
+    };
+  },
+);
+
+server.registerTool(
+  "get-product-alternatives",
+  {
+    title: "Get Product Alternatives",
+    description: "Get competitor alternatives for Berger products",
+    inputSchema: {
+      product: z.string(),
+    },
+  },
+  async ({ product }) => {
+    const foundProduct = comparisonData.products.find(
+      (item) => item.berger_product.toLowerCase() === product.toLowerCase(),
+    );
+
+    if (!foundProduct) {
+      return {
+        content: [
+          {
+            type: "text",
+            text: "Product not found",
+          },
+        ],
+      };
+    }
+
+    const competitorText = Object.entries(foundProduct.competitors)
+      .map(([brand, products]) => {
+        return `
+${brand.replaceAll("_", "")}:
+${products.join("\n")}
+`;
+      })
+      .join("\n");
+
+    return {
+      content: [
+        {
+          type: "text",
+          text: `
+Berger Product: ${foundProduct.berger_product}
+
+Type: ${foundProduct.type}
+
+Competitor Alternatives:
+${competitorText}
+          `,
+        },
+      ],
+    };
+  },
+);
+
+server.registerTool(
+  "get-products-by-category",
+  {
+    title: "Get Products By Category",
+    description: "Get Berger waterproofing products by category",
+    inputSchema: {
+      category: z.string(),
+    },
+  },
+  async ({ category }) => {
+    const categories = comparisonData.waterproofing_categories;
+
+    const foundCategory = Object.keys(categories).find(
+      (item) => item.toLowerCase() === category.toLowerCase(),
+    );
+
+    if (!foundCategory) {
+      return {
+        content: [
+          {
+            type: "text",
+            text: "Category not found",
+          },
+        ],
+      };
+    }
+
+    const products = categories[foundCategory];
+
+    return {
+      content: [
+        {
+          type: "text",
+          text: products.join("\n"),
         },
       ],
     };

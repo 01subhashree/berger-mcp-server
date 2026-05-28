@@ -1,0 +1,708 @@
+{
+  "waterproofing_categories": {
+    "new_construction": [
+      "HomeShield Cementmix Plus",
+      "HomeShield Power Plasticizer",
+      "HomeShield Mikro Conkrete",
+      "HomeShield Seal-O-Crete",
+      "HomeShield Tankshield PW",
+      "HomeShield Wall Shield 2K",
+      "HomeShield Latex Shield 2K",
+      "HomeShield Advanced Latex Plus"
+    ],
+    "basement": [
+      "HomeShield Seal-O-Crete",
+      "HomeShield Wall Shield 2K",
+      "HomeShield Latex Shield 2K",
+      "HomeShield Tankshield PW"
+    ],
+    "interior_exterior": [
+      "Dampstop Advanced",
+      "HomeShield Dampstop Duo",
+      "Rising Dampstop",
+      "HomeShield DampShield"
+    ],
+    "roof_podium": [
+      "HomeShield Roof Kool & Seal",
+      "HomeShield PU Roofkoat",
+      "WeatherCoat RoofGuard",
+      "HomeShield PU Elastoseal Non UV 1K",
+      "HomeShield Leakstop"
+    ],
+    "bathroom_kitchen": [
+      "HomeShield Wall Shield 2K",
+      "HomeShield Latex Shield 2K",
+      "HomeShield Seal-O-Crete",
+      "HomeShield Tankshield PW"
+    ],
+    "repair": [
+      "HomeShield Repairo",
+      "HomeShield Advanced Latex Plus",
+      "HomeShield Crack Fill Paste",
+      "HomeShield Jointseal PU Sealant GG",
+      "HomeShield Leakstop"
+    ],
+    "exterior_waterproofing": [
+      "WeatherCoat RoofGuard",
+      "HomeShield DampShield",
+      "HomeShield Roof Kool & Seal",
+      "HomeShield PU Roofkoat"
+    ]
+  },
+  "products": [
+    {
+      "berger_product": "HomeShield Cementmix Plus",
+      "type": "Integral Waterproofing Compound",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "LW+",
+          "Pidiproof LW+"
+        ],
+        "Sika": [
+          "SikaCim",
+          "Plastocrete Plus"
+        ],
+        "Asian_Paints": [
+          "SmartCare Vitalia Neo"
+        ],
+        "Fosroc": [
+          "Conplast X421IC"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Power Plasticizer",
+      "type": "Concrete Plasticizer",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Pidiproof LW+"
+        ],
+        "Sika": [
+          "Sikament",
+          "Plastocrete Plus"
+        ],
+        "Asian_Paints": [
+          "SmartCare Construction Chemicals"
+        ],
+        "Fosroc": [
+          "Conplast SP430"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Mikro Conkrete",
+      "type": "Micro Concrete Repair Mortar",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Micro Concrete"
+        ],
+        "Sika": [
+          "SikaRep Microcrete"
+        ],
+        "Asian_Paints": [
+          "SmartCare Repair Mortar"
+        ],
+        "Fosroc": [
+          "Renderoc RG",
+          "Renderoc Microcrete"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Seal-O-Crete",
+      "type": "Crystalline Waterproofing Coating",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Dr. Fixit Fastflex"
+        ],
+        "Sika": [
+          "SikaTop Seal 107"
+        ],
+        "Asian_Paints": [
+          "SmartCare Damp Proof"
+        ],
+        "Fosroc": [
+          "Brushbond"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Tankshield PW",
+      "type": "Tank Waterproofing Coating",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Pidifin 2K"
+        ],
+        "Sika": [
+          "SikaTop Seal 107"
+        ],
+        "Asian_Paints": [
+          "SmartCare Hydroloc"
+        ],
+        "Fosroc": [
+          "Brushbond RFX"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Wall Shield 2K",
+      "type": "2K Cementitious Waterproofing",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Fastflex"
+        ],
+        "Sika": [
+          "SikaTop 107 Seal"
+        ],
+        "Asian_Paints": [
+          "SmartCare Damp Proof"
+        ],
+        "Fosroc": [
+          "Brushbond"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Latex Shield 2K",
+      "type": "Polymer Modified Waterproof Coating",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Pidifin 2K"
+        ],
+        "Sika": [
+          "SikaTop Seal 107"
+        ],
+        "Asian_Paints": [
+          "SmartCare Damp Proof Ultra"
+        ],
+        "Fosroc": [
+          "Brushbond RFX"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Advanced Latex Plus",
+      "type": "SBR Waterproof Additive",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Pidicrete URP"
+        ],
+        "Sika": [
+          "SikaLatex Power"
+        ],
+        "Asian_Paints": [
+          "SmartCare Repair Polymer"
+        ],
+        "Fosroc": [
+          "Nitobond SBR"
+        ]
+      }
+    },
+    {
+      "berger_product": "Dampstop Advanced",
+      "type": "Penetrative Damp Proof Coating",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Dampguard Classic"
+        ],
+        "Sika": [
+          "Sika Damp Proof"
+        ],
+        "Asian_Paints": [
+          "SmartCare Damp Proof"
+        ],
+        "Fosroc": [
+          "Brushbond"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Dampstop Duo",
+      "type": "Nano Technology Waterproof Primer",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Dampguard"
+        ],
+        "Sika": [
+          "SikaTop Seal 107"
+        ],
+        "Asian_Paints": [
+          "Hydro Loc Xtreme"
+        ],
+        "Fosroc": [
+          "Nitocote SN522"
+        ]
+      }
+    },
+    {
+      "berger_product": "Rising Dampstop",
+      "type": "Rising Damp Treatment",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Dampguard"
+        ],
+        "Sika": [
+          "Mur InjectoCream"
+        ],
+        "Asian_Paints": [
+          "SmartCare Damp Block"
+        ],
+        "Fosroc": [
+          "Nitocote EP405"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield DampShield",
+      "type": "Damp Blocking Coating",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Dampguard"
+        ],
+        "Sika": [
+          "Sika Damp Proof"
+        ],
+        "Asian_Paints": [
+          "SmartCare Damp Block 2K"
+        ],
+        "Fosroc": [
+          "Nitocote SN522"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Roof Kool & Seal",
+      "type": "Elastomeric Roof Waterproof Coating",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Roofseal Flex",
+          "Raincoat"
+        ],
+        "Sika": [
+          "Sikalastic 560",
+          "SikaCool Roof"
+        ],
+        "Asian_Paints": [
+          "SmartCare Damp Proof Ultra"
+        ],
+        "Fosroc": [
+          "Brushbond Roofguard"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield PU Roofkoat",
+      "type": "PU Liquid Waterproof Membrane",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "PU Seal",
+          "Roofseal Classic"
+        ],
+        "Sika": [
+          "Sikalastic 450",
+          "Sikalastic 590"
+        ],
+        "Asian_Paints": [
+          "SmartCare PU Roof Protect"
+        ],
+        "Fosroc": [
+          "Nitoproof 600PF"
+        ]
+      }
+    },
+    {
+      "berger_product": "WeatherCoat RoofGuard",
+      "type": "Acrylic Roof Waterproof Paint",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Raincoat"
+        ],
+        "Sika": [
+          "Sikalastic 590"
+        ],
+        "Asian_Paints": [
+          "SmartCare Roof Tuff"
+        ],
+        "Fosroc": [
+          "Nitoproof Top Coat"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield PU Elastoseal Non UV 1K",
+      "type": "PU Waterproof Membrane",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "PU Seal"
+        ],
+        "Sika": [
+          "Sikalastic 450"
+        ],
+        "Asian_Paints": [
+          "SmartCare PU Seal"
+        ],
+        "Fosroc": [
+          "Nitoproof 600PF"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Leakstop",
+      "type": "Leakage Repair Waterproof Coating",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Newcoat",
+          "Raincoat"
+        ],
+        "Sika": [
+          "Sikalastic 560"
+        ],
+        "Asian_Paints": [
+          "SmartCare Damp Proof"
+        ],
+        "Fosroc": [
+          "Brushbond"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Repairo",
+      "type": "Repair Mortar",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Repair Mortar"
+        ],
+        "Sika": [
+          "SikaRep"
+        ],
+        "Asian_Paints": [
+          "SmartCare Repair Mortar"
+        ],
+        "Fosroc": [
+          "Renderoc HB"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Crack Fill Paste",
+      "type": "Crack Repair Paste",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Crack-X Paste"
+        ],
+        "Sika": [
+          "Sikadur Crack Repair"
+        ],
+        "Asian_Paints": [
+          "SmartCare Crack Seal"
+        ],
+        "Fosroc": [
+          "Renderoc Crack Filler"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Jointseal PU Sealant GG",
+      "type": "PU Joint Sealant",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "PU Sealant"
+        ],
+        "Sika": [
+          "Sikaflex Construction+"
+        ],
+        "Asian_Paints": [
+          "SmartCare PU Sealant"
+        ],
+        "Fosroc": [
+          "Nitoseal PU40"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Epibond",
+      "type": "Epoxy Bonding Agent",
+      "category": "Repair & Bonding",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Dr. Fixit Epoxy Bonding Agent"
+        ],
+        "Sika": [
+          "Sikadur 32 LP"
+        ],
+        "Asian_Paints": [
+          "SmartCare Epoxy Bond"
+        ],
+        "Fosroc": [
+          "Nitobond EP"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Waterproof Putty",
+      "type": "Waterproof Wall Putty",
+      "category": "Interior & Exterior Waterproofing",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Dr. Fixit Raincoat Putty"
+        ],
+        "Sika": [
+          "SikaWall 1015"
+        ],
+        "Asian_Paints": [
+          "SmartCare Wall Putty"
+        ],
+        "Fosroc": [
+          "Renderoc Wall Putty"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Proshield SBS-SA Membrane",
+      "type": "Self Adhesive SBS Modified Bitumen Membrane",
+      "category": "Roof & Basement Waterproofing",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Torchshield Membrane"
+        ],
+        "Sika": [
+          "Sikaplan Membrane"
+        ],
+        "Asian_Paints": [
+          "SmartCare APP Membrane"
+        ],
+        "Fosroc": [
+          "Proofex Torchseal"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Epoxy Elastoseal Primer",
+      "type": "Epoxy PU Primer",
+      "category": "PU Waterproofing System",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "PU Primer"
+        ],
+        "Sika": [
+          "Sika Primer MB"
+        ],
+        "Asian_Paints": [
+          "SmartCare PU Primer"
+        ],
+        "Fosroc": [
+          "Nitoprime 31"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Ultraseal Polyurea MP500",
+      "type": "Polyurea Waterproofing Membrane",
+      "category": "Industrial Waterproofing",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Polyurea Coating System"
+        ],
+        "Sika": [
+          "Sikalastic Polyurea"
+        ],
+        "Asian_Paints": [
+          "SmartCare Industrial Polyurea"
+        ],
+        "Fosroc": [
+          "Nitoproof Polyurea"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Ultraseal BA",
+      "type": "Bituminous Waterproof Coating",
+      "category": "Foundation & Underground Waterproofing",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Bitufix"
+        ],
+        "Sika": [
+          "Igolflex N"
+        ],
+        "Asian_Paints": [
+          "SmartCare Bitumen Coating"
+        ],
+        "Fosroc": [
+          "Proofex Engage"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Super Grout",
+      "type": "Cementitious Grout",
+      "category": "Repair & Structural Strengthening",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Micro Concrete Grout"
+        ],
+        "Sika": [
+          "SikaGrout 214"
+        ],
+        "Asian_Paints": [
+          "SmartCare Grout"
+        ],
+        "Fosroc": [
+          "Conbextra GP2"
+        ]
+      }
+    },
+    {
+      "berger_product": "HomeShield Shalicrystal 200",
+      "type": "Crystalline Waterproofing Compound",
+      "category": "Concrete Waterproofing",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Krystalline Waterproofing"
+        ],
+        "Sika": [
+          "Sika WT 200P"
+        ],
+        "Asian_Paints": [
+          "SmartCare Crystalline Shield"
+        ],
+        "Fosroc": [
+          "Nitocote CM210"
+        ]
+      }
+    },
+    {
+      "berger_product": "Tarfelt DPC",
+      "type": "Damp Proof Course Membrane",
+      "category": "Rising Damp Protection",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "DPC Membrane"
+        ],
+        "Sika": [
+          "Sika Damp Proof Membrane"
+        ],
+        "Asian_Paints": [
+          "SmartCare DPC"
+        ],
+        "Fosroc": [
+          "Proofex DPC"
+        ]
+      }
+    },
+    {
+      "berger_product": "Rheo Cem",
+      "type": "Normal Plasticizer",
+      "category": "Concrete Admixture",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "LW+"
+        ],
+        "Sika": [
+          "Plastocrete"
+        ],
+        "Asian_Paints": [
+          "SmartCare Admixture"
+        ],
+        "Fosroc": [
+          "Conplast NC"
+        ]
+      }
+    },
+    {
+      "berger_product": "Rheo Crete",
+      "type": "Mid Range Plasticizer",
+      "category": "Concrete Admixture",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "Pidiproof LW+"
+        ],
+        "Sika": [
+          "Sikament"
+        ],
+        "Asian_Paints": [
+          "SmartCare Construction Chemicals"
+        ],
+        "Fosroc": [
+          "Conplast SP430"
+        ]
+      }
+    },
+    {
+      "berger_product": "Rheo Plast",
+      "type": "Super Plasticizer",
+      "category": "High Performance Concrete Admixture",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "High Performance Admixture"
+        ],
+        "Sika": [
+          "Viscocrete"
+        ],
+        "Asian_Paints": [
+          "SmartCare Super Plasticizer"
+        ],
+        "Fosroc": [
+          "Auramix 400"
+        ]
+      }
+    },
+    {
+      "berger_product": "Elastoseal AR",
+      "type": "Aromatic PU Waterproof Coating",
+      "category": "PU Waterproofing",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "PU Seal"
+        ],
+        "Sika": [
+          "Sikalastic 450"
+        ],
+        "Asian_Paints": [
+          "SmartCare PU"
+        ],
+        "Fosroc": [
+          "Nitoproof 600"
+        ]
+      }
+    },
+    {
+      "berger_product": "Elastoseal AR 2K",
+      "type": "2 Component PU Liquid Membrane",
+      "category": "Advanced PU Waterproofing",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "PU 2K Membrane"
+        ],
+        "Sika": [
+          "Sikalastic 851"
+        ],
+        "Asian_Paints": [
+          "SmartCare PU 2K"
+        ],
+        "Fosroc": [
+          "Nitoproof 600PF"
+        ]
+      }
+    },
+    {
+      "berger_product": "Elastoseal ALP",
+      "type": "Aliphatic PU Waterproof Coating",
+      "category": "UV Resistant PU Waterproofing",
+      "competitors": {
+        "Pidilite_Dr_Fixit": [
+          "PU Top Coat"
+        ],
+        "Sika": [
+          "Sikalastic 8800"
+        ],
+        "Asian_Paints": [
+          "SmartCare UV PU"
+        ],
+        "Fosroc": [
+          "Nitoproof UVR"
+        ]
+      }
+    }
+  ]
+}
